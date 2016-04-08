@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+<! -- another css -->
+	<link rel="stylesheet" href="index.css">
+
+  
+
+</head>
+  
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">myAlgorithm</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="">Home</a></li>
+      <li><a href="">Post</a></li>
+      <li><a href="">Retrive</a></li>
+      <li><a href="">About us</a></li>
+    </ul>
+  </div>
+</nav>
+
+  
+
+
+<div class="container">
+  <h3>Basic Coding Example</h3>
+
+</body>
+  
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Coding by AR&AR</p>
+      </div>
+</footer
+
+
+
+</html>

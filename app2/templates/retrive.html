@@ -1,0 +1,61 @@
+<html>
+  <head>
+    <!-- Bootstrap core CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="index.css">
+
+ <style type="text/css">
+footer {
+  position:absolute;
+  left:0;
+  bottom: 0;
+  width: 50%;
+  /* Set the fixed height of the footer here */
+  height: 40px;
+  background-color: #f5f5f5;
+}
+
+</style> 
+
+</head>
+<body>
+	<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">myAlgorithm</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="">Home</a></li>
+      <li><a href="post">Post</a></li>
+      <li><a href="retrive">Retrive</a></li>
+      <li><a href="">About us</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<p3> Messages in data base </p3>
+
+<div class = "w3-container">
+
+	<ul class = "w3-ul">
+		{% for index in messg %}
+			<li> {{index.name}},{{index.message}} </li>
+		{% endfor %}
+
+
+	</ul>
+</div>	
+
+
+</body>
+  
+<footer class="footer">
+      <div class="container">
+        <p class="text-muted">Coding by AR&AR</p>
+      </div>
+</footer
+
+</html>
+
+

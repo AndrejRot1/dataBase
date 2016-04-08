@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <title> Mesages </title>
+
+  </head>
+
+ <body>
+  <p> Hello </p>
+  <ul>
+   {% gor index in messg %}
+     <li> {{index.message}} </li>
+   {% endfor % }
+  </ul>
+
+ </body>
+
+</html>
